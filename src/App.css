@@ -1,0 +1,51 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.main {
+  width: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border: 1px solid #fff;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block {
+  width: 200px;
+  border-color: #646cff;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  font-weight: bold;
+  transition: 0.3s;
+  color: #333;
+}
+
+.block:disabled {
+  cursor: not-allowed;
+}
+
+.score {
+  position: absolute;
+  right: 100px;
+  background-color: #646cff;
+  padding: 20px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  font-weight: bold;
+  font-size: 26px;
+  top: 20px;
+}
